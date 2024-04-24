@@ -48,6 +48,9 @@ public class AviaSouls {
                 }
             }
         }
+        if (result.length > 0) {
+            Arrays.sort(result);
+        }
         return result;
     }
 
